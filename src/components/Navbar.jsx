@@ -22,8 +22,8 @@ function Navbar() {
             <div className="sm:hidden block ">
                 <img src={toggle ? close : menu} alt="menu" className="w-[28px] h-[28px] object-contain"
                     onClick={() => setToggle((prev) => !prev)} />
-                <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 w-full rounded-xl sidebar `}>
-                    <ul className="list-none flex flex-col  justify-end items-center flex-1">
+                <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0   w-full rounded-xl sidebar `}>
+                    <ul className=" flex flex-col  justify-end items-center flex-1">
                         {navLinks.map((nav, index) => (
                             <li
                                 key={nav.id}
