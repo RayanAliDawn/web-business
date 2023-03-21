@@ -13,11 +13,11 @@ const Billing = () => (
         </div>
 
         <div className={layout.sectionInfo}>
-            <h2 className={styles.heading2}>
+            <h2 className='w-full text-2xl text-white'>
                 Easily control your <br className="sm:block hidden" /> billing &
                 invoicing
             </h2>
-            <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+            <p className='max-w-[470px] mt-5 text-white text-xl text-normal' >
                 Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
                 aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
                 placerat.

@@ -9,24 +9,25 @@ const Hero = () => (
             <div className='flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2'>
                 <img src={discount} alt="discount" className='w-[32px] h-[32px]' />
                 <p className={`${styles.paragraph} ml-2`}>
-                    <span className='text-white'>20%</span> Discount For {' '}
-                    <span className='text-white'>1 Month </span>Account
+                    <span className='text-white text-xl'>20%</span> Discount For {' '}
+                    <span className='text-white text-xl'>1 Month </span>Account
                 </p>
 
             </div>
-            <div className=' flex flex-row justify-between items-center w-full '>
-                <h1 className='flex-1 font-poppins font-semibold ss:text-[50px] text-[30px] text-white ss:leading-[100px] leading-[75px]'>
-                    THE NEXT <br className='sm-block hidden ' />{''}
-                    <span className='text-gradient'>Generation </span>
+            <div className=' flex flex-row  justify-between items-center w-full sm:block hidden '>
+                <h1 className='flex-1 font-serif  text-2xl text-white '>
+                    THE NEXT {''}
+                    <h5 className='font-serif  text-2xl text-gradient'>Generation </h5>
+                    <span className="font-serif  text-2xl text-white  w-full" >  Payment Method.</span>
                 </h1>
                 <div className='ss:flex hidden md:mr-4 mr-0'>
                     <GetStarted />
                 </div>
             </div>
-            <h1 className="font-poppins font-semibold ss:text-[50px] text-[30px] text-white ss:leading-[100.8px] leading-[75px] w-full">
+            {/* <h1 className="font-poppins  text-2xl text-white  w-full">
                 Payment Method.
-            </h1>
-            <p className={`${styles.paragraph} max-w-[470px] mt-5 ss:text-[20px] text-[10px]`}>
+            </h1> */}
+            <p className={`${styles.paragraph} max-w-[470px] mt-5 text-xl sm:block hidden`}>
                 Our team of experts uses a methodology to identify the credit cards
                 most likely to fit your needs. We examine annual percentage rates,
                 annual fees.
